@@ -21,10 +21,21 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Changes to Gutenberg HTML Files
 =================
-
-Changes to Gutenberg HTML Files:
   
   Themed paragraph, image and header tags with CSS and linked with style tags
   
   Changed image links to be direct links to the original project gutenberg link
+
+Links
+=====
+  https://willzawong.github.io/CMPUT404-assignment-css-hell/gutenberg/1.html
+  
+  https://willzawong.github.io/CMPUT404-assignment-css-hell/gutenberg/2.html
+  
+  https://willzawong.github.io/CMPUT404-assignment-css-hell/gutenberg/3.html
+  
+  https://willzawong.github.io/CMPUT404-assignment-css-hell/homepage/good.html
+  
+  https://willzawong.github.io/CMPUT404-assignment-css-hell/homepage/ugly.html
