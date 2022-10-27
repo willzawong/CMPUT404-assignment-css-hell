@@ -25,4 +25,5 @@ Code is licensed under the Apache 2.0 license.
 
 Changes to Gutenberg HTML Files:
     Themed paragraph, image and header tags with CSS and linked with style tags
+    
     Changed image links to be direct links to the original project gutenberg link
