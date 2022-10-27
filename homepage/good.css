@@ -1,0 +1,41 @@
+/* https://www.w3schools.com/css/css_font.asp */
+p,
+h1 {
+	font-family: "Times New Roman", sans-serif;
+	color: rgb(114, 160, 237);
+}
+p {
+	margin-left: 20%;
+	color: rgb(220, 207, 207);
+}
+body {
+	background-size: 100% 100%;
+	background-image: url("https://images.unsplash.com/photo-1569470451072-68314f596aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80");
+}
+.column {
+	float: left;
+	width: 65%;
+	padding-left: 5%;
+	padding-right: 5;
+}
+.column:nth-child(2) {
+	background-color: rgb(51, 45, 45);
+	float: right;
+	width: 23%;
+	padding-left: 2%;
+	color: rgb(220, 207, 207);
+}
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+h2 {
+	text-align: center;
+	color: rgb(122, 122, 200);
+	font-size: 30px;
+}
+a {
+	font-size: 30px;
+}
