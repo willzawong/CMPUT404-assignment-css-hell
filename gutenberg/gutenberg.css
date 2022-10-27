@@ -25,11 +25,10 @@ h5,
 h6,
 .i0,
 div {
-	font-family: "Old London", sans-serif;
-	font-family: "Old London Alternate", sans-serif;
+	font-family: "Papyrus", sans-serif;
 }
 /* https://unsplash.com/photos/KrQkCVZO1BI, Wesley Tingey, 2022-10-23 */
-/* https://www.cdnfonts.com/old-london.font */
+
 body {
 	background-image: url("https://images.unsplash.com/photo-1558066858-246fbbf9446f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
 }

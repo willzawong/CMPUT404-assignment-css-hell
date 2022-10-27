@@ -34,7 +34,11 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
 
             try:    
                 with open(file_dir+filepath, encoding="utf-8") as f:
-                    if(1):
+                    if(filepath[-3:] == "css"):
+                        http_response_str += """Content-Type: text/css\r\n"""
+                        http_response_str = http_response_str + f.read()
+                        self.request.sendall(http_response_str.encode())    
+                    else:
                         cssfile=""
                         if("1" in filepath or "2" in filepath or "3" in filepath):
                             cssfile = file_dir+"/gutenberg/gutenberg.css"
@@ -47,6 +51,7 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
                         with open(cssfile) as css, open(file_dir+filepath, encoding="utf-8") as html:
                             http_response_str += """Content-Type: text/html\r\n"""
                             self.request.sendall(http_response_str.encode())
+    
                             self.request.sendall(("".join(html.readlines())).encode())
                             http_response = """\n<style type="text/css">\n""" +css.read() + "\n"
                             self.request.sendall(http_response.encode())
